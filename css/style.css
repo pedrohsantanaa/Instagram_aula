@@ -1,0 +1,71 @@
+.body {
+    background-color: #fafafa;
+}
+
+/* Nav */
+.nav-container {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.img-nav {
+    border-radius: 100%;
+    max-width: 20% !important;
+    max-height: 10% !important;
+}
+
+@media (min-width: 200px) and (max-width:1200px) {
+    .nav-container {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    .img-nav {
+        border-radius: 100%;
+        max-width: 12.5% !important;
+        max-height: 10% !important;
+    }
+}
+
+
+.nav-top {
+    background-color: white !important;
+    height: 20%;
+    border-top: 0.6px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+
+/* Icones */
+.icons {
+    padding: 4% !important;
+    font-size: 90% !important;
+}
+
+.form-control {
+    border-radius: 0.14rem !important;
+    padding: 0% !important;
+    background-color: #fafafa !important;
+    text-align: center;
+    font-size: 99% !important;
+}
+
+.img-perfil{
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.principal{
+    margin-left: 20% !important;
+    margin-right:20% !important;
+}
+
+.username{
+    font-size:15px; 
+    font-weight: 300;
+}
+
+.perfil-dados{
+    font-size: 12px;
+}
